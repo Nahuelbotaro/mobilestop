@@ -1,0 +1,44 @@
+.bg-footer {
+    background-color: $colorprincipal;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+.type-white {
+    color: $colorterciario;
+}
+}
+
+
+.fa-facebook{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.fa-instagram{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.fa-twitter{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.fa-facebook:hover{
+    transform: scale(1.5);
+        transition: all 1.5s ease;
+        &:hover{
+            color: $colorsexto;
+}
+}
+  
+.fa-instagram{
+    @extend .fa-facebook
+}
+.fa-twitter{
+    @extend .fa-facebook
+}
